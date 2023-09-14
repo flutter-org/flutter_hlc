@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="flutter_hlc"
+        android:label="房贷计算器"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
