@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hlc/models/home_loan_model.dart';
-import 'package:flutter_hlc/utils/go_router_util.dart';
+import 'package:flutter_hlc/utils/dart_packges/go_router_util.dart';
 import 'package:flutter_hlc/widgets/components/loan/elp.dart';
 import 'package:flutter_hlc/widgets/components/loan/epp.dart';
 import 'package:go_router/go_router.dart';

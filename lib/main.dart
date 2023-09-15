@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_hlc/utils/go_router_util.dart';
+import 'package:flutter_hlc/utils/dart_packges/go_router_util.dart';
 
 void main() {
   /// Be sure to add this line if `PackageInfo.fromPlatform()` is called before runApp()
