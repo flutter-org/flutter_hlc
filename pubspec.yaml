@@ -97,7 +97,6 @@ flutter:
   assets:
     - assets/images/coffee.jpg
     - assets/images/screen_shot.jpg
-    -
 flutter_launcher_icons:
   image_path: "assets/images/logo/logo.jpg"
   android: true
