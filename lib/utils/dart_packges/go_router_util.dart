@@ -5,6 +5,7 @@ import 'package:flutter_hlc/widgets/pages/entry/tabs.dart';
 import 'package:flutter_hlc/widgets/pages/home/home_loan_chart.dart';
 import 'package:flutter_hlc/widgets/pages/home/home_loan_detail.dart';
 import 'package:flutter_hlc/widgets/pages/home/home_loan_input.dart';
+import 'package:flutter_hlc/widgets/pages/me/my_loan/my_loan_input.dart';
 import 'package:flutter_hlc/widgets/pages/me/version.dart';
 import 'package:go_router/go_router.dart';
 
@@ -14,9 +15,12 @@ class GoRouterUtil {
   static const String tabs = '/tabs';
 
   /// 住房商业贷款
-  static const String home_loan_input = '/home_loan';
+  static const String home_loan_input = '/home_loan_input';
   static const String home_loan_detail = '/home_loan_detail';
   static const String home_loan_chart = '/home_loan_chart';
+
+  /// 我的贷款
+  static const String my_loan_input = '/my_loan_input';
 
   /// 版本
   static const String version = '/version';
@@ -48,6 +52,11 @@ class GoRouterUtil {
         builder: (context, state) => HomeLoanChartPage(
           argument: state.extra as HomeLoanModel,
         ),
+      ),
+      GoRoute(
+        path: my_loan_input,
+        name: my_loan_input,
+        builder: (context, state) => const MyLoanInputPage(),
       ),
       GoRoute(
         path: version,

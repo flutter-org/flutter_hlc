@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 enum ValueType {
   double,
   int,
+  string,
 }
 
 class TextFieldModel {

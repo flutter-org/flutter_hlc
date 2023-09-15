@@ -23,7 +23,7 @@ class _HomeLoanInputPageState extends State<HomeLoanInputPage> {
     TextFieldModel(
       title: '贷款年限',
       unit: '年',
-      controller: TextEditingController(),
+      controller: TextEditingController()..text = '30',
       valueType: ValueType.int,
     ),
     TextFieldModel(
